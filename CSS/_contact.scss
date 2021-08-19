@@ -28,6 +28,8 @@ margin: 90px auto ;
   letter-spacing: 4px;
   font-weight: 400;
   background-color: $azulapollo;
+  border-radius: 15px;
+  padding: 15px;
 }
 
 .name,.email,.message{
@@ -39,6 +41,7 @@ margin: 90px auto ;
   padding: 10px 6px;
   font-size: 14px;
   margin-bottom: 40px;
+  border-radius: 15px;
 }
 
 .name{
@@ -62,7 +65,7 @@ margin: 90px auto ;
   color: $azulapollo;
   border: 1px solid $azulapollo;
   padding: 12px 40px;
-  border-radius: 8px;
+  border-radius: 15px;
   text-transform: uppercase;
   font-size: 14px;
   transition: 0.4s linear;

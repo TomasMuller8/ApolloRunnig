@@ -1,5 +1,9 @@
 /*Media queries*/
 @media (max-width: 552px) {
+  .none_h1{
+    display: none !important;
+  }
+  
   .ham {
     display: block;
     cursor: pointer;
@@ -60,6 +64,10 @@
 }
 
 @media (max-width: 1050px) and (min-width: 552px) {
+
+  .none_h1{
+    display: none !important;
+  }
   .ham {
     display: block;
     cursor: pointer;
