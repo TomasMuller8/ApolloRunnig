@@ -9,3 +9,67 @@
   align-items: center;
   opacity: 0.9;
 }
+
+/* Services Item */
+.services-item{
+	padding: 20px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 15px 0 ;
+	box-shadow: 0 0 12px #F4F4F4;
+	transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+	.icon{
+		border: 1px solid #f1f1f1;
+	    width: 70px;
+	    height: 70px;
+	    border-radius: 50%;
+	    margin: 0 auto;
+	    transition: all 0.3s ease-in-out 0s;
+	    -moz-transition: all 0.3s ease-in-out 0s;
+	    -webkit-transition: all 0.3s ease-in-out 0s;
+	    -o-transition: all 0.3s ease-in-out 0s;
+		i{
+		    font-size: 30px;
+		    color: $azulapollo;
+		    line-height: 70px;
+		    transition: all 0.3s ease-in-out 0s;
+		    -moz-transition: all 0.3s ease-in-out 0s;
+		    -webkit-transition: all 0.3s ease-in-out 0s;
+		    -o-transition: all 0.3s ease-in-out 0s;
+		}
+	}
+	.services-content{
+		h3{
+			margin-top: 10px;
+			font-weight: 500;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+			a{
+				font-size: 16px;		
+    			color: #585b60;
+    			&:hover{
+    				color: $azulapollo;
+    			}
+			}
+		}
+	}
+}
+.services-item:hover{
+	box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+}
+.services-item:hover .icon{
+	background: $azulapollo;
+	i{
+		color: #fff;
+	}
+}
+#service{
+	position: relative;
+
+}
+.espacio_seg{
+  margin-bottom: 150px;
+}
