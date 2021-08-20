@@ -12541,17 +12541,19 @@ body {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
+  background-color: rgba(27, 38, 49, 0.2);
 }
 
 .services-item .icon {
-  border: 1px solid #f1f1f1;
+  border: 1px solid #03658c;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   margin: 0 auto;
+  -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
@@ -12563,24 +12565,21 @@ body {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
-  color: #03658c;
 }
 
-.services-item .services-content h3 {
+.services-item .services-content h2 {
   margin-top: 10px;
   font-weight: 500;
-  text-transform: uppercase;
   margin-bottom: 10px;
-  color: #03658c;
+  color: white;
+  text-decoration: none !important;
+  background-color: #03658c;
+  border-radius: 30px;
 }
 
-.services-item .services-content h3 a {
+.services-item .services-content h2 a {
   font-size: 16px;
   color: #585b60;
-}
-
-.services-item .services-content h3 a:hover {
-  color: #03658c;
 }
 
 .services-item:hover {
