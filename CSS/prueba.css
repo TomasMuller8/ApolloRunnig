@@ -12516,6 +12516,17 @@ body {
       -ms-flex-align: center;
           align-items: center;
   opacity: 0.9;
+  margin-bottom: 50px;
+}
+
+.h1seg {
+  color: white;
+  font-size: 65px;
+  font-weight: 500px;
+  text-align: center;
+  padding: 10px;
+  background-color: #03658c;
+  border-radius: 30px;
 }
 
 /* Services Item */
@@ -12552,6 +12563,7 @@ body {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
+  color: #03658c;
 }
 
 .services-item .services-content h3 {
@@ -12559,6 +12571,7 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 10px;
+  color: #03658c;
 }
 
 .services-item .services-content h3 a {
