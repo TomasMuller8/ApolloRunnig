@@ -70,11 +70,17 @@
 				font-size: 16px;		
     			color: white;
 				text-decoration: none;
+				transition: all 0.9s ease;
+				&:hover {
+					font-size: 22px;
+				}
+		
    
 			}
 		}
 	}
 }
+
 .services-item:hover{
 	box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }

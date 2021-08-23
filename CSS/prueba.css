@@ -12581,6 +12581,12 @@ body {
   font-size: 16px;
   color: white;
   text-decoration: none;
+  -webkit-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+}
+
+.services-item .services-content h2 a:hover {
+  font-size: 22px;
 }
 
 .services-item:hover {
