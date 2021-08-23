@@ -12,7 +12,7 @@
 }
 .h1seg {
   color: white;
-  font-size: 65px;
+  font-size: 6vh;
   font-weight: 500px;
   text-align: center;
   padding: 10px;
@@ -68,7 +68,8 @@
       
 			a{
 				font-size: 16px;		
-    			color: #585b60;
+    			color: white;
+				text-decoration: none;
    
 			}
 		}
@@ -82,6 +83,7 @@
 	i{
 		color: #fff;
 	}
+	
 }
 #service{
 	position: relative;
